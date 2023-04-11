@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+	--one: #72A0C1;
+	--two: #ddd;
+	--three: white ;
+}
+
+.main {
+	width: 800px;
+	margin: 200px auto;
+	border: 1px solid var(--one);
+}
+.main > p {
+	padding: 10px;
+	width: fit-content;
+}
+nav {
+	display: flex;
+	align-items: center;
+	background-color: var(--two);
+	padding: 10px;
+}
+nav a {
+	color: var(--one);
+	font-weight: bold;
+	text-decoration: none;
+	margin-right: 10px;
+}
+a:hover {
+	color: red;
+}
+.logo {
+	margin-right: 40px;
+}
+.form {
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	background-color: var(--two);
+	padding: 20px;
+	border-radius: 5px;
+	color: var(--one);
+	height: 300px;
+	justify-content: center;
+}
+form input[type="text"] {
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid var(--three);
+}
+form input[type="submit"] {
+	width: fit-content;
+	margin: 15px auto;
+	padding: 10px 20px;
+	font-size: 17px;
+	color: black;
+	border: none;
+	background: var(--one);
+	border-radius: 3px;
+}
+.footer {
+	color: white;
+	background: var(--one);
+	padding: 10px;
+}
